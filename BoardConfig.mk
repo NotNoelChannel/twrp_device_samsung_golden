@@ -47,7 +47,7 @@ BOARD_HAS_DOWNLOAD_MODE := true
 
 # TWRP Recovery defines
 DEVICE_RESOLUTION := 480x800
-BOARD_CUSTOM_GRAPHICS := device/samsung/golden/prebuilt/twrp_graphics.c
+BOARD_CUSTOM_GRAPHICS := ../../device/samsung/golden/prebuilt/twrp_graphics.c
 TARGET_RECOVERY_FORCE_PIXEL_FORMAT := RGB_565
 TARGET_USERIMAGES_USE_EXT4 := true
 RECOVERY_SDCARD_ON_DATA := true
